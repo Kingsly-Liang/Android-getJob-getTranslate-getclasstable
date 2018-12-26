@@ -12,7 +12,7 @@
 
 ![image](https://github.com/Kingsly-Liang/Android-getJob-getTranslate-getclasstable/blob/master/image/3.PNG)
 
-然后是翻译  
+然后是爬取前程无忧获取求职信息    
 
 
 ![image](https://github.com/Kingsly-Liang/Android-getJob-getTranslate-getclasstable/blob/master/image/4.PNG)
