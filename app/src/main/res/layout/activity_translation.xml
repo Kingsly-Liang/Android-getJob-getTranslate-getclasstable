@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/unknow_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:hint="输入单词或句子"
+        android:background="@android:drawable/edit_text"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textSize="20dp"
+            android:background="#F0FFF0"
+            android:layout_marginRight="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重置"
+            android:textSize="20dp"
+            android:background="#F0FFF0"
+            android:layout_marginLeft="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/show_translate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:hint="结果"
+        android:background="@android:drawable/edit_text"
+        />
+
+
+
+
+
+</LinearLayout>

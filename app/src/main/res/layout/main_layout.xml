@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/schoolmessage"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/first"
+        android:text="学校相关信息"
+        android:textSize="25dp"
+        android:background="#E0EEE0"/>
+    <Button
+        android:id="@+id/translation"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/translate"
+        android:text="中英互译"
+        android:textSize="25dp"
+        android:background="#FAFAD2"/>
+
+    <Button
+        android:id="@+id/getJob"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:text="招聘信息"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/job"
+        android:background="#C6E2FF"/>
+
+    <Button
+        android:id="@+id/jisuanqi"
+        android:layout_width="fill_parent"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:text="计算器"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/jisuanqi"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
